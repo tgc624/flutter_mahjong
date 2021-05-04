@@ -1,0 +1,19 @@
+{
+    "name": "Flutter docker",
+    "dockerComposeFile": [
+        "..\\docker-compose.yml",
+    ],
+    "service": "flutter",
+    "remoteUser": "root",
+    "settings": {
+        "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe"
+    },
+    "runArgs": [
+        "--privileged",
+        "-P",
+    ],
+    "extensions": [
+        "dart-code.flutter"
+    ],
+    "workspaceFolder": "/root/workspace"
+}
