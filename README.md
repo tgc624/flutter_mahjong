@@ -17,6 +17,7 @@
 1. VS CodeでF1を押し、コマンド パレットを開く。`Remote-Containers: Reopen in Container`を選択する
 1. 待つ
 1. VS CodeでTerminalを開き、docker上で、`flutter run -d web-server --web-port=${WEB_SERVER_PORT} --web-hostname 0.0.0.0`を入力する
+   - ビルドに失敗する場合は、`flutter clean`を先に実行してからrunしてみてください
 1. ローカルでlocalhost:8888にアクセスする
 
 ## Note
