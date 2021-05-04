@@ -1,4 +1,4 @@
-# fluttter-mahjong
+# flutter-mahjong
 
 ## Description
 - 
